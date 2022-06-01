@@ -96,10 +96,8 @@ struct node* deleteNode(struct node *head, char nama[50]) {
 		return head;
 	}
     if (temp == NULL){
-    	printf("bbbb");
     	return NULL;
 	}
-	printf("cccc");
     prev->next = temp->next;    
     free(temp);
     
